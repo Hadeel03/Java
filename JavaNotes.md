@@ -10,3 +10,13 @@
   ```java
   public static void main(String[] args) {}
 * STRINGS are enclosed doubled quotation marks & single quote for a character
+
+## Errors 
+* A compile-time error (syntax error)
+	* is a violation of the programming language rules detected by the compiler
+
+* A run-time error (logic error)
+	* causes the program to perform an action that the program didn't intend
+
+* Exception - a type of a runtime error 
+	* generates an error message from the Java virtual machine

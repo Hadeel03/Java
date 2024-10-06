@@ -1,0 +1,62 @@
+1. Which of the following are legal variable names? (Mark all that apply)
+  
+Hello, World (no)
+  
+g (yes)
+  
+void (no)
+ 
+Greeting1 (yes)
+  
+101dalmatians (no)
+
+2. Which type would you use for storing the area of a circle?
+
+boolean 
+String 
+double 
+int 
+char 
+
+Answer: double or float
+
+3. What does the following statement print?
+
+System.out.println(new Rectangle().getWidth());
+
+The code will not even run, due to a compile-time error 
+Nothing (blank output) 
+100 
+null 
+0 
+  
+Answer: 0 use API Docs to check
+  
+4. What do you have to do to use the BigInteger class in a program?
+ 
+Nothing, just use it 
+
+Add the statement
+import java.math.BigInteger;
+at the top of your program
+ 
+Add the statement
+import java.math.BigInteger
+at the top of your program
+ 
+Add the statement
+import BigInteger;
+at the top of your program
+ 
+Add the statement
+java.math.BigInteger;
+at the top of your program
+
+Answer: import java.math.BigInteger
+
+5. Is the toUpperCase method of the String class an accessor or a mutator?
+
+ Accessor 
+ Mutator 
+ 
+ Answer: Accessor

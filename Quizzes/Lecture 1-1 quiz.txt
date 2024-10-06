@@ -1,0 +1,41 @@
+1. What does this program print?
+
+public class Test
+{
+     public static void main(String[] args)
+     {
+          System.out.println("39 + 3");
+          System.out.println(39 + 3);
+     }
+}
+
+Answer: 
+39 + 3
+42
+
+2. What is the compile-time error in this program?
+
+public class Test
+{
+     public static void main(String[] args)
+     {
+          System.out.println("Hello", "World!");
+     }
+}
+
+Answer: 
+Too many arguments in system.out.println()
+To fix it: "Hello, World!"
+
+3. Which of the following are handled differently in Java than they are in Python (mark all that apply)?
+
+ Double/single quotation marks (yes)
+ 
+ Typing (yes)
+
+ Compilation/interpretation (yes)
+
+ White space (yes)
+  
+ Treating everything as an object (no) 
+

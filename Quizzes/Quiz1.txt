@@ -1,0 +1,14 @@
+Lecture 0-1: Print Statements 
+
+What do the following set of statements print?
+
+	System.out.println("Hello");
+	System.out.print(" ");
+	System.out.println("World");
+	System.out.print("a blank line");
+	System.out.print(10 + 27);
+	
+Answer: 
+Hello 
+ World
+a blank line37

@@ -1,0 +1,23 @@
+Lecture 1-1: Accessors and Mutators
+
+1. What does the following sequence of statements print?
+
+Rectangle box = new Rectangle(5, 10, 20, 30);
+System.out.println("Before: " + box.getX());  
+box.translate(25, 40);
+System.out.println("After: " + box.getX());
+
+Answer: 
+Before: 5
+After: 30 
+
+2. What does the following sequence of statements print?
+
+String greeting = "Hello";
+System.out.println(greeting.toUpperCase());
+greeting.toLowerCase();
+System.out.println(greeting);
+
+Answer:
+HELLO
+Hello

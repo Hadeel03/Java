@@ -1,0 +1,27 @@
+Lecture 1-1: Variable Declarations
+
+1. What is wrong with the following variable declaration?
+
+int miles per gallon = 39.4
+
+Answer:
+* Name has spaces
+* int but it's a double
+* Missing a ; 
+
+
+2. Declare and initialize two variables,
+
+unitPrice
+and
+quantity 
+to contain the unit price of a single item and the number of items purchased. Use reasonable initial values.
+
+Answer: 
+
+double unitPrice = 1.95;
+int quantity = 5;
+
+3. Use the variables declared in the last question to display the total purchase price, with some explanatory text, all in one line.
+
+System.out.print("Total price: " + unitPrice * quantity); 

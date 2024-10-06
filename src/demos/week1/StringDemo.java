@@ -18,7 +18,5 @@ public class StringDemo
 		System.out.println(palindrome.substring(2));
 		System.out.println(palindrome.substring(4, 7));
 		
-		
-		
 	}
 }

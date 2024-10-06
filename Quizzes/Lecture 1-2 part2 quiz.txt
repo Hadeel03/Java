@@ -1,0 +1,31 @@
+Lecture 1-2: Class Implementation
+
+1. Suppose we modify the BankAccount class so that each bank account has an account number. How does this change affect the instance variables?
+
+Answer: 
+Add a private instance variable for it
+
+2. Why does the following code not succeed in robbing Mom's bank account?
+
+public class BankRobber
+{
+     public static void main(String[] args)
+     {
+          BankAccount momsSavings = new BankAccount(1000);  
+          momsSavings.balance = 0;
+     }
+}
+
+Answer: 
+balance is private, this other class cannot access it
+
+3. Give a possible implementation of the translate method of the Rectangle class. 
+
+Answer: 
+public void translate(int dx, int dy)
+{
+
+int x += dx;
+int y += dy;
+
+}

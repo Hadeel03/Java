@@ -1,0 +1,19 @@
+Lecture 1-2: Public Interfaces
+
+1. How can you use the methods of the public interface to empty emilysChecking bankaccount?
+
+Answer: 
+BankAccount emilysChecking = new BankAccount(500000);
+		double bal = emilysChecking.getBalannce();
+		emilysChecking.withdraw(bal);
+OR
+BankAccount emilysChecking = new BankAccount(500000);
+		emilysChecking.withdraw(emilysChecking.getBalannce());
+
+2. Suppose you want a more powerful bank account abstraction that keeps track of an  account number in addition to the balance. How would you change the public interface to accommodate this enhancement?
+
+Answer: 
+You could add the accountNumber like this:
+public BankAccount(int accountNumber){}
+public BankAccount(double initialBalance, int accountNumber) {}
+public int getAccountNumber(){}

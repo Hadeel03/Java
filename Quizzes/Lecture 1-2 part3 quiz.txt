@@ -1,0 +1,24 @@
+Lecture 1-2: Implicit and Explicit Parameters
+
+1. How many implicit and explicit parameters does the withdraw method of the BankAccount class have?
+
+Answer:
+1 explicit 
+1 implicit 
+Check BankAccount class
+
+2. Implement a class Product. A product has a name and a price, for example: 
+
+new Product("Toaster", 29.95);
+Supply methods
+
+getName(),
+
+getPrice(), and
+
+reducePrice(double amount).
+
+The last method takes in as a parameter the amount by which to reduce the price.
+
+Answer: 
+Check Product class in demos.week1 folder

@@ -1,6 +1,6 @@
 package demos.week1; 
 
-import java.awt.Rectangle; // You can * to include all of the libraries
+//import java.awt.Rectangle; // You can * to include all of the libraries
 
 public class StringDemo 
 {

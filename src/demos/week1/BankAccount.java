@@ -33,7 +33,7 @@ public class BankAccount
 		BankAccount momsSavings = new BankAccount(2000);
 		
 		// transfer:
-		double transfer = 500;
+		//double transfer = 500;
 		momsSavings.withdraw(500);
 		harrysChecking.deposite(500);
 		
